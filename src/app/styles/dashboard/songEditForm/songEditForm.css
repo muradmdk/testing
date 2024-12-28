@@ -1,0 +1,146 @@
+.tag-select-wrapper,
+.tag-select-wrapper .select__control{
+    background: rgba(45, 51, 75, 0.25);
+    border-radius: 10px;
+    border-color: rgba(45, 51, 75, 0.25) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.tag-select-wrapper .select__control{
+    padding: 5px;
+}
+.paramlink-input-main input{
+    background: transparent;
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    color: #2D334B;
+    width: 100%;
+}
+.paramlink-input-main input:focus{
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.paramlink-input-main button{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: transparent;
+    border: none;
+}
+
+#react-select-3-placeholder{
+    color: #fff !important;
+    font-family: var(--font-lato), sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    text-align: left;
+}
+
+.tag-select-wrapper .select__multi-value,
+.select__multi-value__label{
+    background: rgba(45, 51, 75, 1);
+    border-radius: 4px !important;
+    color: rgba(255, 255, 255, 1) !important;
+    font-family: var(--font-lato), sans-serif !important;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.css-tj5bde-Svg{
+    fill: rgba(45, 51, 75, 1) !important;
+}
+.css-1jqq78o-placeholder{
+    color: #fff !important;
+    font-size: 14px;
+    font-family: var(--font-lato), sans-serif !important;
+}
+
+.select__multi-value__remove{
+    background: transparent !important;
+}
+
+.select__multi-value__remove svg{
+    fill: #fff !important;
+}
+
+.form-check-input[type=radio] {
+    background-color: transparent;
+    border: 1.5px solid #4A5069;
+    width: 20px;
+    height: 20px;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked[type=radio]{
+    background-color: #4A5069;
+    border: 1.5px solid #4A5069;
+}
+
+.form-check-input[type=checkbox]{
+    background-color: transparent;
+    border: 1px solid #2D334B;
+    /* border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    box-shadow: none !important; */
+}
+
+.form-check-input:checked[type=checkbox]{
+    background-color: #4A5069;
+}
+
+.custom-label{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 17px !important;
+    text-align: left;
+    color: #2D334B !important;
+    margin-bottom: 10px;
+}
+.custom-label2{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: left;
+    color: #2D334B !important;
+}
+
+.custom-label3{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    text-align: left;
+    color: #2D334B !important;
+}
+
+.form-check-label{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    text-align: left;
+    color: #4A5069 !important;
+    margin-left: 10px;
+}
+
+/* #react-select-3-placeholder {
+    color: #fff !important;
+    font-family: var(--font-poppins), sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 20px;
+    text-align: left;
+} */

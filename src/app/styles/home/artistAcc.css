@@ -1,0 +1,126 @@
+.artist-acc-form {
+  background: rgba(233, 236, 246, 0.4);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  padding: 15px;
+}
+.acc-media-content-wrapper{
+    background: rgba(255, 255, 255,0.8);
+    display: flex;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.acc-media-content-wrapper.profile-preview{
+    height: 180px;
+    width: 160px;
+    background: rgba(255, 255, 255,0.9);
+}
+.acc-media-content-wrapper img{
+    margin-bottom: 10px;
+}
+.acc-media-content-wrapper p{
+    margin-bottom: 10px;
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 500;
+}
+.image-preview.banner-preview img.preview-image-here{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.image-controls{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.del-control{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #EF5660;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.edit-control{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #EF5660;
+    border:none;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.image-preview.profile-prwview-wrapper img{
+    border-radius: 12px;
+    object-fit: cover;
+}
+.profile-placeholder-wrapper{
+    position: absolute;
+    bottom: -90px;
+    left: 25px;
+}
+.form-inputs-wrapper{
+    padding: 120px 25px  25px 25px;
+}
+.form-inputs-wrapper .form-group{
+    margin-bottom: 15px;
+}
+.form-inputs-wrapper .form-group label{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 500;
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.form-inputs-wrapper .form-group input,
+.form-inputs-wrapper .form-group textarea{
+    width: 100%;
+    padding: 9px;
+    border:none;
+    border-radius: 6px;
+    font-family: var(--font-lato), sans-serif;
+}
+.form-inputs-wrapper .form-group input:focus,
+.form-inputs-wrapper .form-group textarea:focus{
+    outline: none;
+}
+.artist-acc-form .error{
+    color: #EF5660;
+    font-size: 14px;
+    font-family: var(--font-lato), sans-serif;
+}
+.artist-acc-form .css-hlgwow{
+    padding: 4px 8px;
+}
+.artist-acc-form .css-13cymwt-control{
+    min-height: 44px;
+    border-radius: 6px;
+    font-family: var(--font-lato), sans-serif;
+}
+.css-1p3m7a8-multiValue{
+    font-family: var(--font-lato), sans-serif;
+}
+.themeRedBtn{
+    text-align: center;
+    width: 100%;
+    background: #EF5660;
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "queueTitle": "The Cruelest Summer",
+        "artistName": "Taylor Swift",
+        "queueIcon" : "/assets/artist/11.png"
+    },
+    {
+        "id": 2,
+        "queueTitle": "Boyfriends",
+        "artistName": "Harry Styles",
+        "queueIcon" : "/assets/artist/12.png"
+    },
+    {
+        "id": 3,
+        "queueTitle": "With out me",
+        "artistName": "Eminem",
+        "queueIcon" : "/assets/artist/10.png"
+    },
+    {
+        "id": 4,
+        "queueTitle": "Love You Like A Love",
+        "artistName": "Selena Gomez",
+        "queueIcon" : "/assets/artist/09.png"
+    },
+    {
+        "id": 5,
+        "queueTitle": "Hail Mary",
+        "artistName": "2Pac",
+        "queueIcon" : "/assets/artist/08.png"
+    },
+    {
+        "id": 6,
+        "queueTitle": "bloody mary",
+        "artistName": "Lady Gaga",
+        "queueIcon" : "/assets/artist/07.png"
+    },
+    {
+        "id": 7,
+        "queueTitle": "night changes",
+        "artistName": "Zayn Malik",
+        "queueIcon" : "/assets/artist/13.png"
+    },
+    {
+        "id": 8,
+        "queueTitle": "As It Was",
+        "artistName": "Harry style",
+        "queueIcon" : "/assets/artist/14.png"
+    },
+    {
+        "id": 9,
+        "queueTitle": "venom",
+        "artistName": "Eminem",
+        "queueIcon" : "/assets/artist/15.png"
+    },
+    {
+        "id": 10,
+        "queueTitle": "Born To Die",
+        "artistName": "Lana Del Ray",
+        "queueIcon" : "/assets/artist/16.png"
+    },
+    {
+        "id": 11,
+        "queueTitle": "bad guy",
+        "artistName": "Billie Eilish",
+        "queueIcon" : "/assets/artist/06.png"
+    },
+    {
+        "id": 12,
+        "queueTitle": "Northern Attitude",
+        "artistName": "Noah Kahan",
+        "queueIcon" : "/assets/artist/17.png"
+    }
+]
+
+  

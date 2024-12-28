@@ -1,0 +1,148 @@
+
+/*/---- LOGIN PAGE START HERE ----/*/
+
+.login-wrapper{
+    background-image: url('../../assets/auth/login-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+}
+
+.auth-card{
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    backdrop-filter: blur(21.34375px);
+    background: #FFFFFF4D;
+    border-radius: 24px;
+}
+.auth-card.register-card{
+    padding: 30px;
+}
+
+.auth-card-title{
+    line-height: 32px;
+    color: #000000;
+}
+
+.input-wrapper label{
+    line-height: 16px;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.input-wrapper input{
+    padding: 12px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: none !important;
+    border: none !important;
+    font-family: var(--font-lato), sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+
+.input-wrapper input::placeholder{
+    font-family: var(--font-lato), sans-serif;
+    color: #BFBFBF;
+    font-weight: 500;
+}
+.error-msg{
+    color: red;
+}
+
+.input-wrapper .input-group-text{
+    background: #fff !important;
+    border: none !important;
+    line-height: 1.5px;
+}
+
+
+.form-link{
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #000;
+    text-decoration: none;
+}
+
+.auth-btn{
+    height: 44px;
+    border-radius: 4px;
+    font-family: var(--font-gilroy-bold), sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 14px !important;
+}
+
+/* .other-login-wrapper p{
+    line-height: 36px;
+    color: #000;
+} */
+
+.social-link{
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 28px;
+    padding: 5px 20px 9px;
+    display: inline-block;
+}
+
+.register-link{
+    color: #EF5660;
+    text-decoration: none;
+}
+.toggle-password{
+    position: absolute;
+    top: 48px;
+    right: 14px;
+}
+
+/*/---- LOGIN PAGE END's HERE ----/*/
+
+/*/---- REGISTER PAGE START's HERE ----/*/
+.register-wrapper{
+    background-image: url('../../assets/auth/register-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+}
+
+.check-inputs-wrapper input{
+    border: 1.67px solid #4A5069 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    width: 22px;
+    height: 22px;
+}
+
+.form-check-input:checked{
+    background-color: #4A5069 !important;
+}
+
+.check-inputs-wrapper label{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.login-link-txt{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+}
+
+.login-link-txt a{
+    color: #EF5660;
+    font-weight: 700;
+}
+
+/*/---- REGISTER PAGE END's HERE ----/*/

@@ -1,0 +1,152 @@
+.groupSong-list-btn{
+    background: #4A506966;
+    border-radius: 6px;
+    border: none;
+}
+.groupSong-list-btn:hover{
+    background: #4A506966;
+}
+.groupSong-list-btn:focus,
+.groupSong-list-btn:active{
+    background: #4A506966;
+}
+.track-info{
+    display: flex;
+    align-items: center;
+}
+.track-desc label{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+}
+.responsive-title{
+    text-align: left;
+}
+.responsive-title h5{
+    font-size: 14px;
+}
+.track-desc {
+    text-align: left;
+}
+.ad-info label{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    text-align: left;
+}
+.artist-song-list ul{
+    list-style: none;
+}
+.single-artist-song-wrapper{
+    display: flex;
+    align-items: center;
+}
+.song-number-wrapper{
+    flex: 0 0 20px;
+}
+.song-content-wrapper{
+    flex: 1;
+}
+.song-desc-placeholder{
+    display: flex;
+}
+.song-content-wrapper{
+    background: #4A506966;
+    border-radius: 6px;
+    border: none;
+}
+.song-desc-info h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+.song-desc-info label{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    margin-top: 4px;
+}
+.song-number-wrapper label{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-lato), sans-serif;
+    color: #2D334B;
+}
+.track-time label{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+}
+
+.artist-song-list-content .dropdown-toggle{
+    border: none !important;
+}
+
+.artist-song-list-content .dropdown-toggle::after{
+    display: none !important;
+}
+
+.single-artist-layout-menu .dropdown-menu {
+    background: #4A5069;
+    border: none;
+    padding: 0px;
+    border-radius: 10px;
+    color: #fff !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+@media(max-width:480px){
+    .artist-song-list ul{
+        padding-left: 0px;
+    }
+    .only-hide-text .vds-title-text{
+        display: none;
+    }
+    .only-hide-text :where(.vds-audio-layout){
+        border-radius: 0px 0px 0px 9px;
+    }
+    .sample-player-btn button{
+        width: 100%;
+        border-radius: 0px 0px 0px 9px !important;
+    }
+}
+@media(min-width:481px) and (max-width:767px){
+    .artist-song-list ul{
+        padding-left: 0px;
+    }
+    .only-hide-text .vds-title-text{
+        display: none;
+    }
+    .only-hide-text :where(.vds-audio-layout){
+        border-radius: 0px 0px 0px 9px;
+    }
+    .sample-player-btn button{
+        width: 100%;
+        border-radius: 0px 0px 0px 9px !important;
+    }
+}
+/* Tablets - General (Both Orientations) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Tablets - Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .artist-song-list ul{
+        padding-left: 0px;
+    }
+}
+
+/* Tablets - Landscape Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}

@@ -1,0 +1,37 @@
+.empty-list-wrapper{
+    text-align: center;
+}
+
+.empty-list-wrapper p{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(45, 51, 75, 1);
+}
+
+.notfication-wrapper .dropdown-toggle{
+    background: rgba(74, 80, 105, 0.45);
+    width: 166px;
+}
+
+.notfication-wrapper .dropdown-toggle::after{
+    display: inline-block;
+}
+
+.notfication-wrapper .dropdown-menu{
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(45, 51, 75, 0.5);
+    border: none;
+    width: 100%;
+}
+
+.notfication-wrapper .dropdown-item{
+    color: #fff;
+}
+.notification-card-wrapper{
+    background: rgba(233, 236, 246, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+}

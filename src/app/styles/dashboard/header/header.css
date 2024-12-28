@@ -1,0 +1,31 @@
+/* .header-wrapper .dashboard-nav-wrapper nav{
+    background: rgba(233, 236, 246, 0.4) !important;
+} */
+
+.dropdown-toggle{
+    border: none !important;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-menu{
+    background: #4A5069;
+    border: 1px solid #4A5069;
+    color: #fff !important;
+}
+
+.dropdown-item a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.dropdown-item:hover{
+    background-color: #EF5660 !important;
+}
+
+.navbar-dropdown .dropdown-item{
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+}

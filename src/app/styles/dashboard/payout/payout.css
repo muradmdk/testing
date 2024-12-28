@@ -1,0 +1,46 @@
+.bar-chart-wrapper {
+    background: rgba(45, 51, 75, 1);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.bar-chart-wrapper p {
+    font-family: var(--font-lato), sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+}
+
+.bar-chart-wrapper span {
+    font-family: var(--font-lato), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.bar-chart-wrapper h3 {
+    font-family: var(--font-lato), sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(239, 86, 96, 1);
+}
+
+.red-theme-btn {
+    background: #EF5660;
+    font-family: var(--font-lato), sans-serif;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+@media(max-width: 768px) {
+    .bar-content canvas {
+        height: 200px !important;
+    }
+}

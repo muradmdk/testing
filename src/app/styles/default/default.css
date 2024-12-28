@@ -1,0 +1,200 @@
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/main-app-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 30px;
+    background-attachment: fixed;
+  }
+
+.header-wrapper,
+.footer-wrapper {
+    z-index: 10;
+}
+.no-feed-wrapper p{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.header-wrapper nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    padding: 0px 0px;
+    height: 85px;
+    background-color: #E9ECF6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 30px;
+}
+
+.footer-wrapper .bottom-player-wrapper  {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    margin: 0 30px;
+    margin-bottom: 5px;
+    z-index: 11;
+}
+
+.layout-body {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sticky-sidebar {
+    position: sticky;
+    top: 100px;
+    height: calc(100vh - 205px);
+    overflow-y: auto;
+}
+
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    display: grid;
+    border: 4px solid #0000;
+    border-radius: 50%;
+    border-right-color: #ef5660;
+    animation: l15 1s infinite linear;
+  }
+  .loader::before,
+  .loader::after {    
+    content: "";
+    grid-area: 1/1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+    animation: l15 2s infinite;
+  }
+  .loader::after {
+    margin: 8px;
+    animation-duration: 3s;
+  }
+  @keyframes l15{ 
+    100%{transform: rotate(1turn)}
+  }
+  .loader-position{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media(max-width:480px){
+    .main-wrapper{
+        height: 100%;
+        padding: 0px 0px;
+    }
+    .sticky-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .header-wrapper nav{
+        margin: 0px;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .footer-wrapper .bottom-player-wrapper{
+        height: 160px;
+        margin: 0px;
+    }
+    .layout-body{
+        padding-bottom: 180px;
+    }
+}
+@media(min-width:481px) and (max-width:767px){
+	.main-wrapper{
+        height: 100%;
+        padding: 0px 0px;
+    }
+    .sticky-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .header-wrapper nav{
+        margin: 0px;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .footer-wrapper .bottom-player-wrapper{
+        height: 160px;
+        margin: 0px;
+    }
+    .layout-body{
+        padding-bottom: 180px;
+    }
+}
+/* Tablets - General (Both Orientations) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sticky-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+}
+
+
+/* Tablets - Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .sticky-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .header-wrapper nav{
+        margin: 0 41px;
+    }
+    .footer-wrapper .bottom-player-wrapper{
+        height: 160px;
+        margin: 0px 41px;
+    }
+    .layout-body{
+        padding-bottom: 180px;
+    }
+}
+
+/* Tablets - Landscape Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/* Specific range of Tablets (992px to 1024px) */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .sticky-sidebar {
+        position: sticky;
+        top: 100px;
+        height: calc(100vh - 270px);
+        overflow-y: auto;
+    }
+    .header-wrapper nav {
+        margin: 0 30px;
+    }
+    .footer-wrapper .bottom-player-wrapper {
+        height: 160px;
+        margin: 0px 30px;
+    }
+  }
+
+

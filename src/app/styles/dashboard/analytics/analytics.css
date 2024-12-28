@@ -1,0 +1,64 @@
+.analytics-card-wrapper{
+    background: rgba(233, 236, 246, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+}
+.analytics-title h3{
+    font-family: var(--font-lato), sans-serif;
+}
+.analytics-export button{
+    background: #2D334B;
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    padding: 6px 15px 8px 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight:  600;
+}
+.analytics-card-widget{
+    background: #2D334B80;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.card-widget-icon{
+    flex:  0 0 45px;
+}
+.card-widget-content{
+    flex: 1;
+}
+.card-widget-icon span{
+    background: #2D334B;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.charts-bg-wrapper{
+    background: #2D334B80;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 20px;
+}
+.chart-titles-wrapper h4{
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.chart-dropdown  select{
+    background: #2D334B80;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    border-radius: 20px;
+}
+.chart-dropdown  select:focus{
+    outline: none;
+}

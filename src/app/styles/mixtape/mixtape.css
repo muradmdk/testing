@@ -1,0 +1,552 @@
+/* MIXTAPE */
+
+.mixtape-header-placeholder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track-list-wrapper ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.track-list-wrapper ul li {
+  margin-bottom: 14px;
+}
+
+.single-ablum-list {
+  background-color: #4a506966;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.single-ablum-list:hover {
+  background-color: #ef5660 !important;
+}
+
+.track-info-wrapper label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.track-img {
+  flex: 0 0 52px;
+}
+
+.track-img img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.track-info-wrapper {
+  flex: 1;
+}
+
+.track-info-wrapper label {
+  display: block;
+}
+
+.track-info-wrapper span {
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+  line-height: 16px;
+}
+
+.toggle-btn-group button {
+  background-color: #4a506966;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-lato), sans-serif;
+  border-radius: 7px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn-group button span {
+  font-family: var(--font-lato), sans-serif;
+}
+
+.toggle-btn-group button:hover {
+  background-color: #ef5660;
+}
+
+/* CREATE MIXTAPE */
+.mixtape-wrapper {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 20px;
+}
+
+.mixtape-title {
+  font-size: 28px;
+  color: #2d334b;
+  font-weight: 700;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-label {
+  font-size: 15px;
+  color: #2d334b;
+  font-weight: 600;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-form input {
+  background: #fff !important;
+  padding: 10px;
+  color: #bfbfbf;
+  border-radius: 4px;
+  color: #2d334b;
+  font-weight: 600;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-form textarea {
+  background: #fff !important;
+  padding: 10px;
+  color: #bfbfbf;
+  border-radius: 4px;
+  color: #2d334b;
+  font-weight: 600;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.cover-image-upload {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  color: #bfbfbf;
+  font-family: var(--font-lato), sans-serif;
+  cursor: pointer;
+}
+
+.upload-label {
+  cursor: pointer;
+}
+
+.mixtape-form input::placeholder {
+  color: rgba(45, 51, 75, 0.7);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.mixtape-form textarea::placeholder {
+  color: rgba(45, 51, 75, 0.7);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.mixtape-form .form-control:focus {
+  box-shadow: none !important;
+  outline: none;
+  border: 1px solid #ef5660;
+}
+
+.image-preview {
+  border: 1px dotted rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.image-preview img.img-preview {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.image-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.image-controls button {
+  background-color: #ef5660;
+  padding: 8px 10px;
+}
+
+.image-controls button:hover {
+  background-color: #ef5660;
+}
+
+.mixtape-search-wrapper input {
+  background-color: #2d334b !important;
+  padding: 10px 100px 10px 20px !important;
+  border: 3px solid #fff !important;
+  border-radius: 100px !important;
+  transition: all 0.3s ease-in-out;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+.mixtape-search-wrapper input:focus {
+  outline: none !important;
+}
+
+.mixtape-search-wrapper input::placeholder {
+  color: rgb(255, 255, 255, 0.7) !important;
+  font-weight: 500 !important;
+}
+
+.mixtape-search-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.mixtape-search-btn button {
+  background: transparent;
+  border: none;
+}
+
+/* Artist List */
+.sidebar-avatars {
+  background-color: #2d334b;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 300px;
+}
+
+.sidebar-avatars .avatar {
+  margin: 7px 0;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-avatars .avatar img {
+  transition: transform 0.2s ease;
+}
+
+.sidebar-avatars .avatar:hover img {
+  transform: scale(1.1);
+  border: 2px solid #fff;
+}
+
+.song-track-header p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-lato), sans-serif;
+  color: #2d334b;
+}
+
+.no-selected-song {
+  font-family: var(--font-lato), sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #2d334b;
+}
+
+.album-list-wrapper ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.album-list-wrapper ul li {
+  margin-bottom: 14px;
+}
+
+.add-album-btn button:focus,
+.add-album-btn button:active,
+.add-album-btn button:focus-visible {
+  box-shadow: none !important;
+  border: 0px !important;
+  outline: none !important;
+}
+
+.mixtape-btn {
+  background-color: #2d334b;
+  border: 1px solid #2d334b;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: var(--font-lato), sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.mixtape-btn:hover,
+.mixtape-btn:active {
+  background-color: #ef5660;
+  border: 1px solid #ef5660;
+}
+
+/* Empty Message */
+
+.empty-mixtape-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.empty-mixtape-message label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.empty-mixtape-message p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.empty-mixtape-message a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #ef5660;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-family: var(--font-lato), sans-serif;
+}
+.newSub-link {
+  background: #ef5660;
+  display: inline-block;
+  color: #fff;
+  font-family: var(--font-lato), sans-serif;
+  padding: 2px 20px;
+  border-radius: 50px;
+}
+
+.mixtape-thumbnail {
+  flex: 0 0 150px;
+}
+
+.mixtape-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.mixtape-desc {
+  flex: 1;
+}
+
+.mixtape-desc h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.mixtape-desc h4 a {
+  color: #2d334b;
+  transition: all 0.3s ease-in-out;
+}
+.mixtape-desc h4 a:hover {
+  color: #ef5660;
+}
+
+.mixtape-desc label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-desc span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-thumbnail label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-about h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.mixtape-about p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2d334b;
+  font-family: var(--font-lato), sans-serif;
+}
+
+/* .sidebar-avatars::-webkit-scrollbar {
+  width: 0px;
+}
+
+.sidebar-avatars::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+} */
+
+.sidebar-avatars::-webkit-scrollbar {
+  width: 6px;
+  cursor: all-scroll;
+}
+
+.sidebar-avatars::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+  cursor: all-scroll;
+}
+
+.sidebar-avatars::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+  border-radius: 10px;
+  cursor: s-resize;
+}
+
+@media (max-width: 480px) {
+  .mixtape-header-placeholder .mixtape-thumbnail {
+    flex: 100%;
+  }
+
+  .mixtape-thumbnail img {
+    height: 220px;
+  }
+
+  .single-ablum-list {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .track-info-wrapper span {
+    display: block;
+  }
+  .sidebar-avatars {
+    flex-direction: row;
+    height: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .sidebar-avatars .avatar {
+    margin: 0 10px;
+  }
+
+  .sidebar-avatars::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    cursor: all-scroll;
+  }
+
+  .sidebar-avatars::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+    cursor: all-scroll;
+  }
+
+  .sidebar-avatars::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+    border-radius: 10px;
+    cursor: s-resize;
+  }
+  .track-info-wrapper label {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .mixtape-header-placeholder .mixtape-thumbnail {
+    flex: 100%;
+  }
+
+  .mixtape-thumbnail img {
+    height: 220px;
+  }
+
+  .single-ablum-list {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .track-info-wrapper span {
+    display: block;
+    line-height: 16px;
+  }
+  .track-info-wrapper label {
+    font-size: 14px;
+  }
+  .sidebar-avatars {
+    flex-direction: row;
+    height: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .sidebar-avatars .avatar {
+    margin: 0 10px;
+  }
+}
+/* Tablets - General (Both Orientations) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Tablets - Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .mixtape-thumbnail{
+    margin-right: 10px;
+  }
+  .track-info-wrapper span{
+    display: inline-block;
+  }
+  .sidebar-avatars{
+    flex-direction: row;
+    height: 100%;
+  }
+}
+
+/* Tablets - Landscape Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/* Specific range of Tablets (992px to 1024px) */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .sidebar-avatars{
+    flex-direction: column;
+    height: 300px;
+  }
+}

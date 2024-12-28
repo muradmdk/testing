@@ -1,0 +1,47 @@
+.filter-modal .form-select {
+  width: 150px !important;
+  background-color: #4A5069;
+  color: #fff;
+  --cui-form-select-bg-img: url('../../assets/dropdown.svg') !important;
+  font-family: var(--font-lato), sans-serif;
+  padding: .6rem 2.25rem .6rem .75rem !important;
+  border-radius: 9px !important;
+}
+.filter-modal .form-select:focus{
+  box-shadow: none;
+}
+.filterBtn{
+  font-family: var(--font-lato), sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.filterBtn-clear{
+  background-color: #93A0D1;
+  transition: all 0.3s ease-in-out;
+}
+.filterBtn-clear:hover{
+  background-color: #4A5069;
+}
+.filterBtn-result{
+  background-color: #EF5660;
+  transition: all 0.3s ease-in-out;
+}
+.filterBtn-result:hover{
+  background-color: #4A5069;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .filter-modal .form-select,
+  .select-input-wrap {
+    width: 100% !important;
+
+  }
+
+}

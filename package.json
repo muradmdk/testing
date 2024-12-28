@@ -1,0 +1,50 @@
+{
+  "name": "distrosub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@canvasjs/charts": "^3.10.14",
+    "@canvasjs/react-charts": "^1.0.2",
+    "@coreui/coreui": "^5.1.2",
+    "@coreui/react": "^5.4.0",
+    "@formkit/auto-animate": "^0.8.2",
+    "@react-google-maps/api": "^2.20.3",
+    "@react-input/mask": "^1.2.15",
+    "@reduxjs/toolkit": "^2.3.0",
+    "@vidstack/react": "^1.12.12",
+    "apexcharts": "^4.0.0",
+    "chart.js": "^4.4.5",
+    "emoji-picker-react": "^4.12.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.12.0",
+    "motion": "^11.12.0",
+    "next": "14.2.14",
+    "plyr-react": "^5.3.0",
+    "react": "^18",
+    "react-apexcharts": "^1.5.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-h5-audio-player": "^3.9.3",
+    "react-hot-toast": "^2.4.1",
+    "react-mentions": "^4.4.10",
+    "react-movable": "^3.3.1",
+    "react-redux": "^9.1.2",
+    "react-select": "^5.8.2",
+    "react-tooltip": "^5.28.0",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "file-loader": "^6.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

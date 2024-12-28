@@ -1,0 +1,64 @@
+
+@media(max-width: 992px){
+    .profile-img-wrapper img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .common-card{
+        margin: 15px 0px;
+    }
+
+    .common-card h2{
+        font-size: 22px !important;
+    }
+
+    .main-wrapper{
+        padding: 0px !important;
+    }
+
+    .page-title{
+        line-height: 18px;
+    }
+    
+    .mixtape-btn{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 600px){
+    .subscription-wrapper .accordion-button{
+        flex-wrap: wrap;
+    }
+
+    .subscription-level{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .subscription-wrapper .accordion-button::after{
+        margin-left: auto !important;
+    }
+}
+
+@media(max-width: 540px){
+    .subscription-album-list{
+        font-size: 13px !important;
+    }
+    .track-name{
+        font-size: 14px !important;
+        
+    }
+    .artist-avatar img{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .track-name{
+        padding-left: 5px !important;
+    }
+
+    .input-wrapper label {
+        font-size: 16px;
+    }
+}

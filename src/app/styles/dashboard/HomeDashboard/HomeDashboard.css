@@ -1,0 +1,109 @@
+.sticky-sidebar.dashboard-sidebar{
+    height: calc(100vh - 110px);
+}
+.create-feed-wrapper{
+    display: flex;
+    background: #4A506966;
+    backdrop-filter: blur(42.66666793823242px);
+    padding: 18px;
+    border-radius: 20px;
+    width: 100%;
+    align-items: center;
+}
+.create-feed-icon{
+    flex: 0 0 64px;
+}
+.create-feed-action{
+    flex: 1;
+}
+.create-feed-action button{
+    background: #2D334B80;
+    border: 1px solid #fff;
+    padding: 10px 10px 10px 20px;
+    border-radius: 100px;
+    width: 100%;
+    display: inline-block;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.create-feed-action button:focus{
+    outline: none;
+}
+.card-widget-content label{
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-widget-content h4{
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+@media(max-width:480px){
+    .sticky-sidebar.dashboard-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .create-feed-wrapper{
+        padding: 10px;
+    }
+}
+@media(min-width:481px) and (max-width:767px){
+    .sticky-sidebar.dashboard-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .create-feed-wrapper{
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .header-wrapper .dashboard-nav-wrapper nav {
+        margin: 0 12px;
+    }
+   
+}
+
+
+/* Tablets - Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .sticky-sidebar.dashboard-sidebar {
+        height: 100%;
+        border-radius: 8px;
+        position: relative;
+        top: unset;
+    }
+    .header-wrapper .dashboard-nav-wrapper nav {
+        margin: 0 12px;
+    }
+}
+
+/* Tablets - Landscape Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/* Specific range of Tablets (992px to 1024px) */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .header-wrapper .dashboard-nav-wrapper nav {
+        margin: 0 30px;
+    }
+    .sticky-sidebar.dashboard-sidebar {
+        position: sticky;
+        top: 100px;
+        height: calc(100vh - 110px);
+        overflow-y: auto;
+    }
+  }

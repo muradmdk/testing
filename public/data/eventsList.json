@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "1",
+        "event_cover_photo" : "/assets/events/01.png",
+        "event_title" : "EBI LIVE IN ISTANBUL",
+        "event_loction" : "Istanbul",
+        "event_date" : "23 March 2024",
+        "event_ticket_price" : "Starts from 109 USD",
+        "event_time" : "07:00 PM",
+        "total_attendees" : "1500"
+    },
+    {
+        "id" : "2",
+        "event_cover_photo" : "/assets/events/02.png",
+        "event_title" : "EBI LIVE IN ISTANBUL",
+        "event_loction" : "Istanbul",
+        "event_date" : "23 March 2024",
+        "event_ticket_price" : "Starts from 109 USD",
+        "event_time" : "07:00 PM",
+        "total_attendees" : "1500"
+    },
+    {
+        "id" : "3",
+        "event_cover_photo" : "/assets/events/03.png",
+        "event_title" : "EBI LIVE IN ISTANBUL",
+        "event_loction" : "Istanbul",
+        "event_date" : "23 March 2024",
+        "event_ticket_price" : "Starts from 109 USD",
+        "event_time" : "07:00 PM",
+        "total_attendees" : "1500"
+    }
+]

@@ -1,0 +1,18 @@
+.share-modal .modal-content .modal-header{
+    border-bottom: 0px !important;
+    
+}
+
+.share-modal .modal-content .btn-close{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.share-card {
+    box-shadow: 
+    0px 4px 4px rgba(0, 0, 0, 0.15),
+    0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+

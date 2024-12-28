@@ -1,0 +1,101 @@
+.home-notification-wrapper{
+    background: rgba(233, 236, 246, 0.4);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 15px 15px 8px 15px;
+    height: 100%;
+    position: sticky;
+    top: 100px;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.home-notification-placeholder{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.home-notification-body{
+    flex: 1;
+    overflow-y: auto;
+}
+.home-notification-body::-webkit-scrollbar {
+    width: 6px;
+    cursor: all-scroll;
+}
+  
+.home-notification-body::-webkit-scrollbar-thumb {
+    background: #4A506973;
+    border-radius: 10px;
+    cursor: all-scroll;
+}
+  
+.home-notification-body::-webkit-scrollbar-thumb:hover {
+    background: #4A5069;
+    border-radius: 10px;
+    cursor: s-resize;
+}
+.home-notification-header h4{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 600;
+}
+.home-notification-body ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.home-notification-body ul li {
+    margin-bottom: 20px;
+}
+.single-notify-wrapper{
+    display: flex;
+    align-items: center;
+}
+.single-notify-avatar {
+    flex: 0 0 64px;
+}
+.single-notify-avatar img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+.single-notify-desc-header{
+    display: flex;
+    align-items: center;
+}
+.single-notify-desc-header h5{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.single-notify-desc-header span{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: 1px;
+}
+.single-notify-desc p{
+    font-family: var(--font-lato), sans-serif;
+    margin-top: 2px;
+}
+.no-notification p{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 20px;
+}
+.home-notification-content{
+    display: flex;
+    justify-content: flex-end;
+}
+.home-notification-content button{
+    background: transparent;
+    border: none;
+    padding: 0px;
+    text-transform: capitalize;
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.home-notification-content button:hover{
+    color: #EF5660;
+}

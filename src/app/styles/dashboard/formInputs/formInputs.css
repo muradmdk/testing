@@ -1,0 +1,35 @@
+.input-wrapper input {
+    padding: 8px 30px 8px 12px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: none !important;
+    border: none !important;
+    font-family: var(--font-lato), sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+
+.input-wrapper label{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+    text-align: left;
+    color: rgba(45, 51, 75, 1) !important;
+}
+
+.toggle-password{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.upadte-redbtn{
+    background-color: #ff4d4d;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+  }

@@ -1,0 +1,268 @@
+.form-bg-wrapper{
+    background: #E9ECF666;
+    backdrop-filter: blur(42.66666793823242px);
+    padding: 30px;
+    border-radius: 20px;
+}
+.page-title-wrapper h3{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+.grey-input-wrapper.no-label input{
+    padding: 16px;
+    height: unset;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px !important;
+    color: #fff;
+    font-weight: 500 !important;
+}
+.grey-input-wrapper.no-label select{
+    padding: 16px;
+    height: unset;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px !important;
+    color: #fff;
+    font-weight: 500 !important;
+}
+.grey-input-wrapper.no-label textarea{
+    padding: 16px;
+    height: unset;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px !important;
+    color: #fff;
+    font-weight: 500 !important;
+}
+.error-text{
+    font-family: var(--font-lato), sans-serif;
+}
+.create-album-link button{
+    color: #2D334B;
+    font-size: 14px;
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+}
+.create-album-link button img{
+    position: relative;
+    top: -1px;
+}
+.btn-dashboard{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: var(--font-lato), sans-serif;
+}
+.uploading-wrapper{
+    background: #E9ECF666;
+    backdrop-filter: blur(42.66666793823242px);
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+.upload-placeholder-wrapper{
+    background: #2D334B80;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+}
+.uploaded-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.drag-drop-action-wrapper{
+  cursor: pointer;
+}
+.drag-drop-action-buttons{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.drag-drop-action-buttons button{
+  background: #d43f3f;
+  border: none;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.drag-drop-action-wrapper span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-family: var(--font-lato), sans-serif;
+}
+.upload-msg{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: var(--font-lato), sans-serif;
+}
+.audio-upload-label p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: var(--font-lato), sans-serif;
+}
+.upload-action-wrapper{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.upload-action-wrapper.upload-albums{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+}
+.transparent-button{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+
+
+.upload-label {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .image-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d43f3f;
+  }
+
+
+  .customMultiTag .css-13cymwt-control{
+    background: rgba(74, 80, 105, 0.5) !important;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: none;
+    min-height: 46px !important;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+  }
+  .customMultiTag .css-t3ipsp-control{
+    background: rgba(74, 80, 105, 0.5) !important;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: unset;
+    min-height: 46px !important;
+    box-sizing: none;
+    font-family: var(--font-lato), sans-serif;
+    color: #fff;
+  }
+  .customMultiTag .css-1dyz3mf{
+    padding: 2px 8px;
+  }
+  .customMultiTag .css-1p3m7a8-multiValue{
+    background-color: #2D334B !important;
+    color: #fff !important;
+    font-family: var(--font-lato), sans-serif;
+  }
+  .customMultiTag .css-9jq23d{
+    color: #fff !important;
+  }
+  .customMultiTag .css-tj5bde-Svg{
+    fill: #fff !important;
+  }
+  .customMultiTag .css-1nmdiq5-menu{
+    background-color: #2D334B !important;
+    color: #fff !important;
+    font-family: var(--font-lato), sans-serif;
+  }
+  .customMultiTag .css-1nmdiq5-menu span{
+    font-family: var(--font-lato), sans-serif !important;
+  }
+
+  .upload-cover-wrapper{
+    background: #2D334B80;
+    height: 150px;
+    border-radius: 15px;
+  }
+  .upload-cover-wrapper span{
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 400;
+  }
+  .file-preview img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .preview-action-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .preview-action-btn button{
+    background: #d43f3f;
+    border: none;
+  }
+  .preview-action-btn img{
+    width: 16px;
+    height: 16px;
+  }
+  .file-preview.audio-file-preview{
+    background: #2D334B80;
+    height: 150px;
+    border-radius: 15px;
+  }
+  .inner-name-preview{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+  }
+  

@@ -1,0 +1,43 @@
+.create-event-modal h2{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: center;
+    color: rgba(45, 51, 75, 1);
+}
+
+.event-form input{
+    background: rgba(74, 80, 105, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    padding: 12px;
+}
+
+.event-form input::placeholder{
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.event-cover-label{
+    background-color: rgba(248, 248, 248, 1);
+    border-radius: 8px;
+    border: 0.5px solid rgba(217, 217, 217, 1);
+    height: 185px;
+    width: 100%;
+}
+
+.event-cover-label img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

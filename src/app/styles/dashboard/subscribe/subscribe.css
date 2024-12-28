@@ -1,0 +1,124 @@
+
+.subscription-wrapper .accordion-item{
+    margin-top: 30px;
+}
+
+.subscription-wrapper .accordion-item>.accordion-header .accordion-button.collapsed,
+.accordion-item{
+    border-radius: 8px !important;
+}
+
+.subscription-wrapper .accordion-button,
+.subscription-wrapper .accordion {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+.accordion-item{
+   background: transparent !important;
+   border: 0px !important;
+}
+
+.subscription-wrapper .accordion-button{
+    background: rgba(45, 51, 75, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 18px !important;
+}
+
+.label-img{
+    position: absolute;
+    top: -10px;
+    left: 16px;
+}
+
+.subscription-wrapper .accordion-button::after{
+    background-image: url('/assets/dashboard/arrow-down.svg') !important;
+    margin-left: 0 !important;
+    background-position: bottom;
+}
+
+.subscription-level p{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 1);
+}
+
+.subscription-level span{
+    font-family: var(--font-lato), sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subscription-wrapper .accordion-body{
+    background: rgba(45, 51, 75, 0.25);
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.page-title{
+    color: #2D334B;
+}
+
+.subscription-wrapper ul{
+    list-style: none;
+}
+
+.subscription-wrapper ul li{
+    padding: 0px !important;
+    list-style: none;
+}
+
+.subscription-wrapper  ul li::before{
+  left: -16px;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.track-name{
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  color: #fff ;
+}
+
+.single-ablum-list {
+    background-color: #4A506966 !important;
+    border-radius: 9px;
+}
+
+.subscription-album-list{
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.subscription-album-list::-webkit-scrollbar {
+    width: 7px; /* Set scrollbar width */
+}
+
+.subscription-album-list::-webkit-scrollbar-track {
+    background: rgba(74, 80, 105, 0.45); /* Track color */
+    border-radius: 25px;
+}
+
+.subscription-album-list::-webkit-scrollbar-thumb {
+    background-color: rgba(74, 80, 105, 1); /* Scrollbar color */
+    border-radius: 25px; /* Rounded scrollbar edges */
+}
+
+.subscription-album-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(74, 80, 105, 1); /* Scrollbar color on hover */
+}

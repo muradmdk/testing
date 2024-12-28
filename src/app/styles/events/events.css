@@ -1,0 +1,160 @@
+.filters-input{
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    background-color: #4A506973;
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    height: 44px;
+    padding: 10px;
+    outline: none !important;
+}
+
+
+.custom-date-input {
+    position: relative;
+}
+
+.custom-date-input input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: var(--font-lato), sans-serif;
+}
+
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0; /* Hide default calendar icon */
+}
+
+.custom-date-input::after {
+  content: ""; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none; 
+  background-image: url('/assets/events/date-icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.filters-input::placeholder{
+  color: #fff;
+}
+
+.input-icon{
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+/*/--- Event Card Styles ---/*/
+.event-card{
+  background: rgba(255, 255, 255, 0.49);
+  padding: 10px;
+  border-radius: 20px;
+}
+.event-title h3{
+  font-weight: 600;
+  font-size: 30px;
+  color: #EF5660;
+  font-family: var(--font-lato), sans-serif;
+}
+.event-details{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.event-detail-body{
+  flex: 1;
+}
+
+.event-cover-photo{
+  height:325px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.event-cover-photo img{
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px;
+}
+
+.event-details-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.event-details-list li{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.event-details-list li span{
+  font-family: var(--font-lato), sans-serif;
+  color: #2D334B;
+  font-size: 18px;
+  font-weight: 400;
+}
+.event-attend-btn{
+  background-color: #EF5660;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.event-btn{
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+@media(max-width:480px){
+  .event-title h3{
+    font-size: 24px;
+  }
+  .event-details-list{
+    gap: 10px;
+  }
+  .event-attend-btn{
+    display: inline-block;
+    width: 100%;
+    margin-top: 13px;
+  }
+  .event-cover-photo{
+    height: 320px;
+  }
+  .event-cover-photo img{
+    object-fit: cover;
+  }
+}
+@media(min-width:481px) and (max-width:767px){
+  .event-title h3{
+    font-size: 24px;
+  }
+  .event-details-list{
+    gap: 10px;
+  }
+  .event-attend-btn{
+    display: inline-block;
+    width: 100%;
+    margin-top: 13px;
+  }
+  .event-cover-photo{
+    height: 320px;
+  }
+  .event-cover-photo img{
+    object-fit: cover;
+  }
+}

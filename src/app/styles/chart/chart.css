@@ -1,0 +1,45 @@
+.chart-placeholder{
+    padding: 20px;
+    background: rgba(233, 236, 246, 0.4);
+    border-radius: 20px;
+}
+.chart-balance-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.chart-label label{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2D334B;
+}
+.chart-balance h4{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    color: #2D334B;
+}
+
+@media(max-width:480px){
+    .chart-balance-wrapper{
+        padding: 0px 0px;
+    }
+    .chart-label label{
+      font-size: 16px;
+    }
+    .chart-balance h4{
+        font-size: 28px;
+    }
+  }
+  @media(min-width:481px) and (max-width:767px){
+    .chart-balance-wrapper{
+        padding: 0px 0px;
+    }
+    .chart-label label{
+      font-size: 16px;
+    }
+    .chart-balance h4{
+        font-size: 28px;
+    }
+  }

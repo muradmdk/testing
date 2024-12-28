@@ -1,0 +1,141 @@
+.artist-register-wrapper{
+    background-image: url('/assets/artistRegister/section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    padding: 30px 0px;
+}
+
+.artist-auth-card{
+    width: 100%;
+    background-image: url('/assets/artistRegister/card-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    padding: 30px;
+}
+
+.auth-inner-card{
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 24px;
+}
+
+.auth-inner-card h2{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+}
+
+.auth-form-input label{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+.auth-form-input input,
+.auth-form-input textarea{
+    padding: 12px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: none !important;
+    border: none !important;
+    font-family: var(--font-lato), sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.auth-form-input input::placeholder,
+.auth-form-input textarea::placeholder{
+    font-family: var(--font-lato), sans-serif;
+    color: #BFBFBF;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.auth-inner-card button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.auth-inner-card p{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.auth-inner-card p a{
+    font-weight: 600;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.tag-select-wrapper,
+.tag-select-wrapper .select__control{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+#react-select-3-placeholder{
+    color: #BFBFBF;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.tag-select-wrapper .select__multi-value,
+.select__multi-value__label{
+    background: #EF5660;
+    border-radius: 4px !important;
+    color: rgba(255, 255, 255, 1) !important;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.css-1dyz3mf{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+
+.css-tj5bde-Svg{
+    fill: rgba(45, 51, 75, 1) !important;
+}
+
+.select__multi-value__remove{
+    background: transparent !important;
+}
+
+.select__multi-value__remove svg{
+    fill: #fff !important;
+}
+
+.toggle-password{
+    position: absolute;
+    right: 10px;
+    top: 48px;
+}
+
+.picture-label img{
+    border-radius: 4px;
+}

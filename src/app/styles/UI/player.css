@@ -1,0 +1,78 @@
+.player-position {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.vds-audio-layout {
+  border: none !important;
+}
+:where(.vds-audio-layout) {
+  height: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0,
+    #000 200%
+  );
+  background-color: unset;
+  filter: unset;
+  border-radius: 0px 0px 21px 21px;
+  font-family: var(--font-lato), sans-serif;
+}
+:where(.vds-audio-layout .vds-play-button) {
+  border-radius: 40px !important;
+}
+.video-player-position {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.video-player-position [data-media-player][data-layout="video"] {
+  background-color: unset;
+}
+.video-player-position
+  [data-media-player][data-layout="video"]:not([data-fullscreen]) {
+  border: none;
+}
+.video-player-position [data-media-player] {
+  border-radius: 21px !important;
+  overflow: hidden;
+}
+.video-player-position .vds-controls-group {
+  font-family: var(--font-lato), sans-serif;
+}
+.vds-time {
+  font-family: var(--font-lato), sans-serif;
+}
+.sample-player-wrapper .vds-seek-button.vds-button {
+  display: none !important;
+}
+.sample-player-wrapper .vds-settings-menu.vds-menu {
+  display: none !important;
+}
+.sample-player-wrapper :where(.vds-audio-layout) {
+  height: 46px;
+}
+.sample-player-btn {
+  text-align: center;
+}
+.sample-player-btn button {
+  background: #4a506966;
+  border: none;
+  padding: 6px;
+  border-radius: 40px;
+  color: #fff;
+  font-family: var(--font-lato), sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.sample-player-btn button:hover {
+  background: #ef5660;
+}
+@media (hover: hover) and (pointer: fine) {
+  .vds-button:hover {
+    border-radius: 40px;
+  }
+}

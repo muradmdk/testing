@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "TrackName": "The Cruelest Summer",
+        "AlbumName": "Taylor Swift",
+        "AlbumIcon" : "/assets/artist/11.png"
+    },
+    {
+        "id": 2,
+        "TrackName": "The Cruelest Summer",
+        "AlbumName": "Taylor Swift",
+        "AlbumIcon" : "/assets/artist/11.png"
+    },
+    {
+        "id": 3,
+        "TrackName": "The Cruelest Summer",
+        "AlbumName": "Taylor Swift",
+        "AlbumIcon" : "/assets/artist/11.png"
+    }
+]
+  

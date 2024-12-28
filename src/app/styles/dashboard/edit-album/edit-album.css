@@ -1,0 +1,107 @@
+.custom-date-input {
+  position: relative;
+}
+
+.custom-date-input input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0; /* Hide default calendar icon */
+}
+
+.custom-date-input::after {
+  content: ""; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none; 
+  background-image: url('/assets/dashboard/calendar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/*/--- songs list styles ---/*/
+.page-title{
+  color: #2D334B;
+}
+
+.songs-list-wrapper ul{
+  list-style: none;
+}
+
+.songs-list-wrapper ul li{
+  padding: 0px !important;
+  list-style: none;
+}
+
+.songs-list-wrapper  ul li::before{
+  left: -16px;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+
+.track-name{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  color: #fff ;
+}
+
+.single-ablum-list {
+  background-color: #4A506966 !important;
+  border-radius: 7px;
+}
+
+.single-song-menu-btn{
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.single-song-menu-list{
+  background-color: #4A5069;
+  border-radius: 8px;
+  padding: 10px 0px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 1;
+}
+
+.single-song-menu-list ul{
+  list-style: none;
+  padding: 0;
+  width: 100px;
+}
+
+.single-song-menu-list ul li{
+  width: 100%;
+}
+
+.single-song-menu-list ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--font-lato), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  width: 100%;
+  padding: 2px 15px;
+  display: block;
+}
+
+.single-song-menu-list ul li a:hover{
+  background-color: #EF5660;
+}

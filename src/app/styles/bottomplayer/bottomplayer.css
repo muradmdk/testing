@@ -1,0 +1,114 @@
+.bottom-player-card {
+    background-color: #E9ECF666;
+    border-radius: 21px;
+    padding: 15px;
+    border: 0px !important;
+    height: 90px;
+
+}
+
+.bottom-player-card .rhap_container {
+    padding: 0px;
+    background-color: unset;
+    box-shadow: unset;
+}
+.bottom-player-card .rhap_main-controls-button{
+    color: #000;
+}
+.bottom-player-card .single-track-img img{
+    border-radius: 10px;
+}
+.bottom-player-card .rhap_volume-button{
+    color: #000;
+}
+.bottom-player-card .rhap_time{
+    font-family: var(--font-lato), sans-serif;
+    font-weight: 600;
+}
+.bottom-player-card .single-track-desc h5,
+.bottom-player-card .single-track-desc p{
+    font-family: var(--font-lato), sans-serif;
+}
+
+.bottom-player-card .rhap_main-controls button[aria-label="Pause"] {
+    color: #000;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom-player-card .rhap_main-controls button[aria-label="Play"] {
+    color: #000;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom-player-card .rhap_progress-filled {
+    background-color: #EF5660;
+    border-radius: 10px;
+}
+
+.bottom-player-card .rhap_progress-indicator {
+    background: #EF5660;
+    top: -7px;
+}
+
+.bottom-player-card .rhap_progress-bar {
+    height: 8px;
+    border-radius: 10px;
+}
+
+@media(max-width:480px){
+    .bottom-player-card{
+        height: 160px;
+        border-radius: 0px;
+    }
+    .single-track-info{
+        height: 68px;
+    }
+    .bottom-player-card{
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .track-info-label label{
+        font-size: 13px;
+    }
+}
+@media(min-width:481px) and (max-width:767px){
+	.bottom-player-card{
+        height: 160px;
+        border-radius: 0px;
+    }
+    .single-track-info{
+        height: 68px;
+    }
+    .bottom-player-card{
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .track-info-label label{
+        font-size: 13px;
+    }
+}
+
+/* Tablets - General (Both Orientations) */
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+}
+/* Tablets - Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .bottom-player-card{
+        height: 160px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .single-track-info{
+        height: 68px;
+    }
+    .bottom-player-card{
+        background: rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* Tablets - Landscape Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}

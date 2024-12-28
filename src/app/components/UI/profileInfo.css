@@ -1,0 +1,112 @@
+.profileInfo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.profile-avatar{
+    flex: 0 0 64px;
+}
+.profile-avatar img{
+    border-radius: 10px;
+    object-fit: cover;
+    backdrop-filter: blur(13.333333969116211px)
+
+}
+.profile-desc h4{
+    font-family: var(--font-lato), sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.profile-desc button{
+    background: transparent;
+    border:none;
+    text-transform: capitalize;
+    font-family: var(--font-lato), sans-serif !important;
+    color: #2D334B;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 17px;
+}
+.profile-desc button span{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-right: 3px;
+}
+.artist-subscriber-modelWrapper ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.artist-subscriber-modelWrapper ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+.single-subscriber-wrapper{
+    display: flex;
+    align-items: center;
+}
+.single-sub-avatar{
+    flex: 1;
+}
+.single-sub-avatar{
+    display: flex;
+    align-items: center;
+}
+.single-sub-avatar .avatar-sub{
+    flex: 0 0 44px;
+}
+.single-sub-avatar .avatar-sub img{
+    border-radius: 40px;
+}
+.subscriber-info h5{
+    font-family: var(--font-lato), sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.subscriber-info p{
+    font-family: var(--font-lato), sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #666668;
+}
+.SubscriberList-model .modal-body{
+    padding: 25px;
+}
+.modal-content{
+    border-radius: 25px;
+    border: none;
+}
+.sub-message a{
+    display: inline-block;
+    background: #EF5660;
+    font-family: var(--font-lato), sans-serif;
+    padding: 8px 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.SubscriberList-model .modal-title{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 24px;
+    color: #2D334B;
+    font-weight: 500;
+    margin-bottom: 0px;
+    filter: drop-shadow(1px 2px 0px rgba(0, 0, 0, 0.2));
+}
+.SubscriberList-model .modal-header{
+    padding: 10px 25px 0px 25px;
+    border-bottom: 0px;
+}
+.SubscriberList-model .btn.btn-close{
+    display: none;
+}
+.sub-close-btn{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}

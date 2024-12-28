@@ -1,0 +1,23 @@
+.comment-input-wrapper input{
+    width: 100%;
+    border: none !important;
+    color: #2D334B80 !important;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 19px;
+    background: #4A506926;
+    height: 44px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.comment-input-wrapper input::placeholder{
+    color: #2D334B80 !important;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 19px;
+}

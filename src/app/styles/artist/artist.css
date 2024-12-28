@@ -1,0 +1,40 @@
+.artist-list-wrapper {
+    gap: 10px
+}
+
+.artist-list-wrapper a {
+    display: inline-block;
+    width: 105px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.artist-title p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-lato), sans-serif;
+    color: #2D334B;
+}
+
+.artist-main-title {
+    color: #2D334B;
+    font-weight: 700;
+    font-family: var(--font-lato), sans-serif;
+
+}
+.artist-share-wrapper button{
+    font-family: var(--font-lato), sans-serif;
+    font-size: 20px;
+}
+.artist-sub-btn button{
+    display: inline-block;
+    width: 100%;
+    background: #EF5660;
+    padding: 8px;
+    color: #fff;
+    font-family: var(--font-lato), sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+}
