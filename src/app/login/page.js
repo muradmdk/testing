@@ -23,12 +23,14 @@ import pIcon from "@/app/assets/auth/eye-hide.svg";
 import fbIcon from "@/app/assets/auth/fb.svg";
 import gIcon from "@/app/assets/auth/google.svg";
 import aIcon from "@/app/assets/auth/apple.svg";
+import { useAuth } from "../context/AuthContext";
 
 function LoginPage() {
   const [inputType, setInputType] = useState(false);
   const [loginUser, { isLoading }] = useLoginUserMutation();
   const dispatch = useDispatch();
   const router = useRouter();
+  const { login } = useAuth();
 
   // Validation schema
   const validationSchema = Yup.object({
@@ -49,9 +51,15 @@ function LoginPage() {
       if (response.result === "success") {
         const { token, data } = response;
         toast.success(response?.message);
+           // Save token in localStorage (optional)
+           localStorage.setItem("authToken", token);
+           localStorage.setItem("authUser", JSON.stringify(data));
         dispatch(setAuthState({ authState: true, token, user: data }));
+        login(token, data);
         resetForm();
         router.push("/");
+        
+    ;
       } else {
         toast.error(response?.message);
       }
