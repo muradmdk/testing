@@ -8,8 +8,8 @@ export const userLoginApi = createApi({
   endpoints: (builder) => ({
     LoginUser: builder.mutation({
       query: (loginData) => ({
-        // url: '/api/customer/login',
-        url: '/api/artist/login',
+        url: '/api/customer/login',
+        // url: '/api/artist/login',
         method: 'POST',              
         body: loginData,               
       }),

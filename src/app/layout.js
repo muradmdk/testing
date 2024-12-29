@@ -5,6 +5,7 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 import { Toaster } from "react-hot-toast";
 import StoreProvider from "./StoreProvider";
 import ProtectedRoute from "./ProtectedRoute";
+import { AuthProvider } from "./context/AuthContext";
 
 const gilroyExtraBold = localFont({
   src: "./fonts/Gilroy-Heavy.ttf",
@@ -75,8 +76,10 @@ export default function RootLayout({ children }) {
           antialiased`}
       >
         <StoreProvider>
+        <AuthProvider>
           <Toaster position="top-right" reverseOrder={false} />
           <ProtectedRoute>{children}</ProtectedRoute>
+          </AuthProvider>
         </StoreProvider>
       </body>
     </html>
